@@ -3,7 +3,9 @@
 package org.provus.atm.command.command.impl;
 
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
 import org.provus.atm.command.command.Command;
 import org.provus.atm.command.command.CommandPackage;
 
@@ -42,10 +44,12 @@ public class CommandImpl extends MinimalEObjectImpl.Container implements Command
   /**
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @NOT generated
+   * @generated
    */
-  @Override
-	public String toString() {
-		return "";
-	}
+  public String toString()
+  {
+    return "";
+    
+  }
+
 } //CommandImpl

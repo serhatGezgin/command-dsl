@@ -9,16 +9,22 @@
       fileExtensions="cmd" ecorePackage="Command.ecore#/">
     <genClasses ecoreClass="Command.ecore#//Model">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Command.ecore#//Model/commands"/>
+      <genOperations ecoreOperation="Command.ecore#//Model/toString"/>
     </genClasses>
-    <genClasses ecoreClass="Command.ecore#//Command"/>
+    <genClasses ecoreClass="Command.ecore#//Command">
+      <genOperations ecoreOperation="Command.ecore#//Command/toString"/>
+    </genClasses>
     <genClasses ecoreClass="Command.ecore#//ENC">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Command.ecore#//ENC/pass"/>
+      <genOperations ecoreOperation="Command.ecore#//ENC/toString"/>
     </genClasses>
     <genClasses ecoreClass="Command.ecore#//PASS">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Command.ecore#//PASS/pass"/>
+      <genOperations ecoreOperation="Command.ecore#//PASS/toString"/>
     </genClasses>
     <genClasses ecoreClass="Command.ecore#//USER">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Command.ecore#//USER/user"/>
+      <genOperations ecoreOperation="Command.ecore#//USER/toString"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

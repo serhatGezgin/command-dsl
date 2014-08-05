@@ -95,6 +95,22 @@ public class USERImpl extends CommandImpl implements USER
    * <!-- end-user-doc -->
    * @generated
    */
+  public String toString()
+  {
+    if (eIsProxy()) return super.toString();
+    
+    StringBuffer result = new StringBuffer(super.toString());
+    result.append("user=");
+    result.append("\"" + user + "\"");
+    return result.toString();
+    
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
@@ -154,23 +170,6 @@ public class USERImpl extends CommandImpl implements USER
         return USER_EDEFAULT == null ? user != null : !USER_EDEFAULT.equals(user);
     }
     return super.eIsSet(featureID);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @NOT generated
-   */
-  @Override
-  public String toString()
-  {
-    if (eIsProxy()) return super.toString();
-
-    StringBuffer result = new StringBuffer(super.toString());
-    result.append("user=");
-    result.append("\"" + user + "\"");
-   // result.append(')');
-    return result.toString();
   }
 
 } //USERImpl

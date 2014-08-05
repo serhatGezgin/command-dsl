@@ -95,6 +95,23 @@ public class ENCImpl extends CommandImpl implements ENC
    * <!-- end-user-doc -->
    * @generated
    */
+  public String toString()
+  {
+    if (eIsProxy()) return super.toString();
+    
+    StringBuffer result = new StringBuffer(super.toString());
+    result.append("ENC{");
+    result.append("\"" + pass + "\"");
+    result.append('}');
+    return result.toString();
+    
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
@@ -154,23 +171,6 @@ public class ENCImpl extends CommandImpl implements ENC
         return PASS_EDEFAULT == null ? pass != null : !PASS_EDEFAULT.equals(pass);
     }
     return super.eIsSet(featureID);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @NOT generated
-   */
-  @Override
-  public String toString()
-  {
-    if (eIsProxy()) return super.toString();
-
-    StringBuffer result = new StringBuffer(super.toString());
-    result.append("ENC{");
-    result.append("\"" + pass + "\"");
-    result.append('}');
-    return result.toString();
   }
 
 } //ENCImpl

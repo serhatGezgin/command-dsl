@@ -82,6 +82,26 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
    * <!-- end-user-doc -->
    * @generated
    */
+  public String toString()
+  {
+    TreeIterator<EObject> eAllContents = this.eAllContents();
+    
+    StringBuilder sb = new StringBuilder();
+    for (TreeIterator<EObject> iterator = eAllContents; iterator.hasNext();) {
+      EObject eObject = (EObject) iterator.next();
+      sb.append(eObject.toString() + " ");
+    }
+    sb.deleteCharAt(sb.length() - 1);
+    
+    return sb.toString();
+    
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   @Override
   public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
   {
@@ -160,25 +180,5 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
     }
     return super.eIsSet(featureID);
   }
-  
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @NOT generated
-   */
-  @Override
-	public String toString() {
-	  	TreeIterator<EObject> eAllContents = this.eAllContents();
-	  	
-	  	
-	  	StringBuilder sb = new StringBuilder();
-	  	for (TreeIterator<EObject> iterator = eAllContents; iterator.hasNext();) {
-	  		EObject eObject = (EObject) iterator.next();
-	  		sb.append(eObject.toString() + " ");
-		}
-	  	sb.deleteCharAt(sb.length() - 1);
-	  	
-	  	return sb.toString();
-	}
 
 } //ModelImpl

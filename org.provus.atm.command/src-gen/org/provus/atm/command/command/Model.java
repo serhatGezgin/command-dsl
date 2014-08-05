@@ -40,4 +40,12 @@ public interface Model extends EObject
    */
   EList<Command> getCommands();
 
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @model annotation="http://www.eclipse.org/emf/2002/GenModel body='TreeIterator<EObject> eAllContents = this.eAllContents();\r\n\r\nStringBuilder sb = new StringBuilder();\r\nfor (TreeIterator<EObject> iterator = eAllContents; iterator.hasNext();) {\r\n\tEObject eObject = (EObject) iterator.next();\r\n\tsb.append(eObject.toString() + \" \");\r\n}\r\nsb.deleteCharAt(sb.length() - 1);\r\n\r\nreturn sb.toString();\r\n'"
+   * @generated
+   */
+  String toString();
+
 } // Model

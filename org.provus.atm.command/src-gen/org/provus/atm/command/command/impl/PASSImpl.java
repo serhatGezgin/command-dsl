@@ -95,6 +95,22 @@ public class PASSImpl extends CommandImpl implements PASS
    * <!-- end-user-doc -->
    * @generated
    */
+  public String toString()
+  {
+    if (eIsProxy()) return super.toString();
+    
+    StringBuffer result = new StringBuffer(super.toString());
+    result.append("pass=");
+    result.append("\"" + pass + "\"");
+    return result.toString();
+    
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   @Override
   public Object eGet(int featureID, boolean resolve, boolean coreType)
   {
@@ -154,22 +170,6 @@ public class PASSImpl extends CommandImpl implements PASS
         return PASS_EDEFAULT == null ? pass != null : !PASS_EDEFAULT.equals(pass);
     }
     return super.eIsSet(featureID);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @NOT generated
-   */
-  @Override
-  public String toString()
-  {
-    if (eIsProxy()) return super.toString();
-
-    StringBuffer result = new StringBuffer(super.toString());
-    result.append("pass=");
-    result.append("\"" + pass + "\"");
-    return result.toString();
   }
 
 } //PASSImpl
