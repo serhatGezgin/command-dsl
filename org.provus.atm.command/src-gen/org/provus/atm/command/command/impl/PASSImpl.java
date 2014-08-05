@@ -159,7 +159,7 @@ public class PASSImpl extends CommandImpl implements PASS
   /**
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
+   * @NOT generated
    */
   @Override
   public String toString()
@@ -167,9 +167,8 @@ public class PASSImpl extends CommandImpl implements PASS
     if (eIsProxy()) return super.toString();
 
     StringBuffer result = new StringBuffer(super.toString());
-    result.append(" (pass: ");
-    result.append(pass);
-    result.append(')');
+    result.append("pass=");
+    result.append("\"" + pass + "\"");
     return result.toString();
   }
 

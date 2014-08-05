@@ -159,7 +159,7 @@ public class ENCImpl extends CommandImpl implements ENC
   /**
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
+   * @NOT generated
    */
   @Override
   public String toString()
@@ -167,9 +167,9 @@ public class ENCImpl extends CommandImpl implements ENC
     if (eIsProxy()) return super.toString();
 
     StringBuffer result = new StringBuffer(super.toString());
-    result.append(" (pass: ");
-    result.append(pass);
-    result.append(')');
+    result.append("ENC{");
+    result.append("\"" + pass + "\"");
+    result.append('}');
     return result.toString();
   }
 

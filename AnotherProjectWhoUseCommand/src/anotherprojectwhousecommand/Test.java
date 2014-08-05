@@ -8,6 +8,7 @@ import org.provus.atm.command.command.Command;
 import org.provus.atm.command.command.CommandFactory;
 import org.provus.atm.command.command.ENC;
 import org.provus.atm.command.command.Model;
+import org.provus.atm.command.command.PASS;
 import org.provus.atm.command.command.USER;
 
 public class Test {
@@ -18,12 +19,16 @@ public class Test {
 		USER user = CommandFactory.eINSTANCE.createUSER();
 		user.setUser("serhat");
 		
+		PASS pass = CommandFactory.eINSTANCE.createPASS();
+		pass.setPass("pass");
+		
 		ENC enc = CommandFactory.eINSTANCE.createENC();
 		enc.setPass("pass");
 		
 		model.getCommands().add(user);
 		model.getCommands().add(enc);
-		
+		model.getCommands().add(pass);
+		 
 		System.out.println(model.toString());		
 	}
 	

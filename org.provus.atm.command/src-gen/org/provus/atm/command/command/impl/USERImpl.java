@@ -159,7 +159,7 @@ public class USERImpl extends CommandImpl implements USER
   /**
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @generated
+   * @NOT generated
    */
   @Override
   public String toString()
@@ -167,9 +167,9 @@ public class USERImpl extends CommandImpl implements USER
     if (eIsProxy()) return super.toString();
 
     StringBuffer result = new StringBuffer(super.toString());
-    result.append(" (user: ");
-    result.append(user);
-    result.append(')');
+    result.append("user=");
+    result.append("\"" + user + "\"");
+   // result.append(')');
     return result.toString();
   }
 

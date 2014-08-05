@@ -5,17 +5,14 @@ package org.provus.atm.command.command.impl;
 import java.util.Collection;
 
 import org.eclipse.emf.common.notify.NotificationChain;
-
 import org.eclipse.emf.common.util.EList;
-
+import org.eclipse.emf.common.util.TreeIterator;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.InternalEObject;
-
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-
 import org.provus.atm.command.command.Command;
 import org.provus.atm.command.command.CommandPackage;
 import org.provus.atm.command.command.Model;
@@ -163,5 +160,20 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
     }
     return super.eIsSet(featureID);
   }
+  
+  @Override
+	public String toString() {
+	  	TreeIterator<EObject> eAllContents = this.eAllContents();
+	  	
+	  	
+	  	StringBuilder sb = new StringBuilder();
+	  	for (TreeIterator<EObject> iterator = eAllContents; iterator.hasNext();) {
+	  		EObject eObject = (EObject) iterator.next();
+	  		sb.append(eObject.toString() + " ");
+		}
+	  	sb.deleteCharAt(sb.length() - 1);
+	  	
+	  	return sb.toString();
+	}
 
 } //ModelImpl
