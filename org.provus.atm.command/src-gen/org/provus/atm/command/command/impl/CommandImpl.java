@@ -39,6 +39,11 @@ public class CommandImpl extends MinimalEObjectImpl.Container implements Command
     return CommandPackage.Literals.COMMAND;
   }
 
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @NOT generated
+   */
   @Override
 	public String toString() {
 		return "";

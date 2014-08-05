@@ -161,6 +161,11 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
     return super.eIsSet(featureID);
   }
   
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @NOT generated
+   */
   @Override
 	public String toString() {
 	  	TreeIterator<EObject> eAllContents = this.eAllContents();
