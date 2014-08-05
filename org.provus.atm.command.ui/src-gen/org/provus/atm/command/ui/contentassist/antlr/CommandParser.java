@@ -42,10 +42,13 @@ public class CommandParser extends AbstractContentAssistParser {
 					put(grammarAccess.getENCAccess().getGroup(), "rule__ENC__Group__0");
 					put(grammarAccess.getPASSAccess().getGroup(), "rule__PASS__Group__0");
 					put(grammarAccess.getUSERAccess().getGroup(), "rule__USER__Group__0");
-					put(grammarAccess.getModelAccess().getCommandsAssignment_1(), "rule__Model__CommandsAssignment_1");
+					put(grammarAccess.getModelAccess().getCommandsAssignment_1_0(), "rule__Model__CommandsAssignment_1_0");
+					put(grammarAccess.getModelAccess().getCommandsAssignment_1_1(), "rule__Model__CommandsAssignment_1_1");
+					put(grammarAccess.getModelAccess().getCommandsAssignment_1_2(), "rule__Model__CommandsAssignment_1_2");
 					put(grammarAccess.getENCAccess().getPassAssignment_3(), "rule__ENC__PassAssignment_3");
 					put(grammarAccess.getPASSAccess().getPassAssignment_3(), "rule__PASS__PassAssignment_3");
 					put(grammarAccess.getUSERAccess().getUserAssignment_3(), "rule__USER__UserAssignment_3");
+					put(grammarAccess.getModelAccess().getUnorderedGroup_1(), "rule__Model__UnorderedGroup_1");
 				}
 			};
 		}

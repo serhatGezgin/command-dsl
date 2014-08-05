@@ -153,98 +153,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "ruleModel"
 
 
-    // $ANTLR start "entryRuleCommand"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:88:1: entryRuleCommand : ruleCommand EOF ;
-    public final void entryRuleCommand() throws RecognitionException {
-        try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:89:1: ( ruleCommand EOF )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:90:1: ruleCommand EOF
-            {
-             before(grammarAccess.getCommandRule()); 
-            pushFollow(FOLLOW_ruleCommand_in_entryRuleCommand121);
-            ruleCommand();
-
-            state._fsp--;
-
-             after(grammarAccess.getCommandRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleCommand128); 
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-        }
-        return ;
-    }
-    // $ANTLR end "entryRuleCommand"
-
-
-    // $ANTLR start "ruleCommand"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:97:1: ruleCommand : ( ( rule__Command__Alternatives ) ) ;
-    public final void ruleCommand() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-            
-        try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:101:2: ( ( ( rule__Command__Alternatives ) ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:102:1: ( ( rule__Command__Alternatives ) )
-            {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:102:1: ( ( rule__Command__Alternatives ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:103:1: ( rule__Command__Alternatives )
-            {
-             before(grammarAccess.getCommandAccess().getAlternatives()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:104:1: ( rule__Command__Alternatives )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:104:2: rule__Command__Alternatives
-            {
-            pushFollow(FOLLOW_rule__Command__Alternatives_in_ruleCommand154);
-            rule__Command__Alternatives();
-
-            state._fsp--;
-
-
-            }
-
-             after(grammarAccess.getCommandAccess().getAlternatives()); 
-
-            }
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "ruleCommand"
-
-
     // $ANTLR start "entryRuleENC"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:116:1: entryRuleENC : ruleENC EOF ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:90:1: entryRuleENC : ruleENC EOF ;
     public final void entryRuleENC() throws RecognitionException {
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:117:1: ( ruleENC EOF )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:118:1: ruleENC EOF
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:91:1: ( ruleENC EOF )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:92:1: ruleENC EOF
             {
              before(grammarAccess.getENCRule()); 
-            pushFollow(FOLLOW_ruleENC_in_entryRuleENC181);
+            pushFollow(FOLLOW_ruleENC_in_entryRuleENC123);
             ruleENC();
 
             state._fsp--;
 
              after(grammarAccess.getENCRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleENC188); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleENC130); 
 
             }
 
@@ -261,23 +184,23 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "ruleENC"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:125:1: ruleENC : ( ( rule__ENC__Group__0 ) ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:99:1: ruleENC : ( ( rule__ENC__Group__0 ) ) ;
     public final void ruleENC() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:129:2: ( ( ( rule__ENC__Group__0 ) ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:130:1: ( ( rule__ENC__Group__0 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:103:2: ( ( ( rule__ENC__Group__0 ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:104:1: ( ( rule__ENC__Group__0 ) )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:130:1: ( ( rule__ENC__Group__0 ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:131:1: ( rule__ENC__Group__0 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:104:1: ( ( rule__ENC__Group__0 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:105:1: ( rule__ENC__Group__0 )
             {
              before(grammarAccess.getENCAccess().getGroup()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:132:1: ( rule__ENC__Group__0 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:132:2: rule__ENC__Group__0
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:106:1: ( rule__ENC__Group__0 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:106:2: rule__ENC__Group__0
             {
-            pushFollow(FOLLOW_rule__ENC__Group__0_in_ruleENC214);
+            pushFollow(FOLLOW_rule__ENC__Group__0_in_ruleENC156);
             rule__ENC__Group__0();
 
             state._fsp--;
@@ -308,20 +231,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "entryRulePASS"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:144:1: entryRulePASS : rulePASS EOF ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:118:1: entryRulePASS : rulePASS EOF ;
     public final void entryRulePASS() throws RecognitionException {
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:145:1: ( rulePASS EOF )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:146:1: rulePASS EOF
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:119:1: ( rulePASS EOF )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:120:1: rulePASS EOF
             {
              before(grammarAccess.getPASSRule()); 
-            pushFollow(FOLLOW_rulePASS_in_entryRulePASS241);
+            pushFollow(FOLLOW_rulePASS_in_entryRulePASS183);
             rulePASS();
 
             state._fsp--;
 
              after(grammarAccess.getPASSRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRulePASS248); 
+            match(input,EOF,FOLLOW_EOF_in_entryRulePASS190); 
 
             }
 
@@ -338,23 +261,23 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rulePASS"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:153:1: rulePASS : ( ( rule__PASS__Group__0 ) ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:127:1: rulePASS : ( ( rule__PASS__Group__0 ) ) ;
     public final void rulePASS() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:157:2: ( ( ( rule__PASS__Group__0 ) ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:158:1: ( ( rule__PASS__Group__0 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:131:2: ( ( ( rule__PASS__Group__0 ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:132:1: ( ( rule__PASS__Group__0 ) )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:158:1: ( ( rule__PASS__Group__0 ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:159:1: ( rule__PASS__Group__0 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:132:1: ( ( rule__PASS__Group__0 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:133:1: ( rule__PASS__Group__0 )
             {
              before(grammarAccess.getPASSAccess().getGroup()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:160:1: ( rule__PASS__Group__0 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:160:2: rule__PASS__Group__0
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:134:1: ( rule__PASS__Group__0 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:134:2: rule__PASS__Group__0
             {
-            pushFollow(FOLLOW_rule__PASS__Group__0_in_rulePASS274);
+            pushFollow(FOLLOW_rule__PASS__Group__0_in_rulePASS216);
             rule__PASS__Group__0();
 
             state._fsp--;
@@ -385,20 +308,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "entryRuleUSER"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:172:1: entryRuleUSER : ruleUSER EOF ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:146:1: entryRuleUSER : ruleUSER EOF ;
     public final void entryRuleUSER() throws RecognitionException {
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:173:1: ( ruleUSER EOF )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:174:1: ruleUSER EOF
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:147:1: ( ruleUSER EOF )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:148:1: ruleUSER EOF
             {
              before(grammarAccess.getUSERRule()); 
-            pushFollow(FOLLOW_ruleUSER_in_entryRuleUSER301);
+            pushFollow(FOLLOW_ruleUSER_in_entryRuleUSER243);
             ruleUSER();
 
             state._fsp--;
 
              after(grammarAccess.getUSERRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleUSER308); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleUSER250); 
 
             }
 
@@ -415,23 +338,23 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "ruleUSER"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:181:1: ruleUSER : ( ( rule__USER__Group__0 ) ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:155:1: ruleUSER : ( ( rule__USER__Group__0 ) ) ;
     public final void ruleUSER() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:185:2: ( ( ( rule__USER__Group__0 ) ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:186:1: ( ( rule__USER__Group__0 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:159:2: ( ( ( rule__USER__Group__0 ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:160:1: ( ( rule__USER__Group__0 ) )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:186:1: ( ( rule__USER__Group__0 ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:187:1: ( rule__USER__Group__0 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:160:1: ( ( rule__USER__Group__0 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:161:1: ( rule__USER__Group__0 )
             {
              before(grammarAccess.getUSERAccess().getGroup()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:188:1: ( rule__USER__Group__0 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:188:2: rule__USER__Group__0
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:162:1: ( rule__USER__Group__0 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:162:2: rule__USER__Group__0
             {
-            pushFollow(FOLLOW_rule__USER__Group__0_in_ruleUSER334);
+            pushFollow(FOLLOW_rule__USER__Group__0_in_ruleUSER276);
             rule__USER__Group__0();
 
             state._fsp--;
@@ -461,129 +384,22 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "ruleUSER"
 
 
-    // $ANTLR start "rule__Command__Alternatives"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:200:1: rule__Command__Alternatives : ( ( ruleENC ) | ( rulePASS ) | ( ruleUSER ) );
-    public final void rule__Command__Alternatives() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-            
-        try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:204:1: ( ( ruleENC ) | ( rulePASS ) | ( ruleUSER ) )
-            int alt1=3;
-            switch ( input.LA(1) ) {
-            case 11:
-                {
-                alt1=1;
-                }
-                break;
-            case 14:
-                {
-                alt1=2;
-                }
-                break;
-            case 16:
-                {
-                alt1=3;
-                }
-                break;
-            default:
-                NoViableAltException nvae =
-                    new NoViableAltException("", 1, 0, input);
-
-                throw nvae;
-            }
-
-            switch (alt1) {
-                case 1 :
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:205:1: ( ruleENC )
-                    {
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:205:1: ( ruleENC )
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:206:1: ruleENC
-                    {
-                     before(grammarAccess.getCommandAccess().getENCParserRuleCall_0()); 
-                    pushFollow(FOLLOW_ruleENC_in_rule__Command__Alternatives370);
-                    ruleENC();
-
-                    state._fsp--;
-
-                     after(grammarAccess.getCommandAccess().getENCParserRuleCall_0()); 
-
-                    }
-
-
-                    }
-                    break;
-                case 2 :
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:211:6: ( rulePASS )
-                    {
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:211:6: ( rulePASS )
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:212:1: rulePASS
-                    {
-                     before(grammarAccess.getCommandAccess().getPASSParserRuleCall_1()); 
-                    pushFollow(FOLLOW_rulePASS_in_rule__Command__Alternatives387);
-                    rulePASS();
-
-                    state._fsp--;
-
-                     after(grammarAccess.getCommandAccess().getPASSParserRuleCall_1()); 
-
-                    }
-
-
-                    }
-                    break;
-                case 3 :
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:217:6: ( ruleUSER )
-                    {
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:217:6: ( ruleUSER )
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:218:1: ruleUSER
-                    {
-                     before(grammarAccess.getCommandAccess().getUSERParserRuleCall_2()); 
-                    pushFollow(FOLLOW_ruleUSER_in_rule__Command__Alternatives404);
-                    ruleUSER();
-
-                    state._fsp--;
-
-                     after(grammarAccess.getCommandAccess().getUSERParserRuleCall_2()); 
-
-                    }
-
-
-                    }
-                    break;
-
-            }
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__Command__Alternatives"
-
-
     // $ANTLR start "rule__Model__Group__0"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:230:1: rule__Model__Group__0 : rule__Model__Group__0__Impl rule__Model__Group__1 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:177:1: rule__Model__Group__0 : rule__Model__Group__0__Impl rule__Model__Group__1 ;
     public final void rule__Model__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:234:1: ( rule__Model__Group__0__Impl rule__Model__Group__1 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:235:2: rule__Model__Group__0__Impl rule__Model__Group__1
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:181:1: ( rule__Model__Group__0__Impl rule__Model__Group__1 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:182:2: rule__Model__Group__0__Impl rule__Model__Group__1
             {
-            pushFollow(FOLLOW_rule__Model__Group__0__Impl_in_rule__Model__Group__0434);
+            pushFollow(FOLLOW_rule__Model__Group__0__Impl_in_rule__Model__Group__0311);
             rule__Model__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Model__Group__1_in_rule__Model__Group__0437);
+            pushFollow(FOLLOW_rule__Model__Group__1_in_rule__Model__Group__0314);
             rule__Model__Group__1();
 
             state._fsp--;
@@ -607,21 +423,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Model__Group__0__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:242:1: rule__Model__Group__0__Impl : ( () ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:189:1: rule__Model__Group__0__Impl : ( () ) ;
     public final void rule__Model__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:246:1: ( ( () ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:247:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:193:1: ( ( () ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:194:1: ( () )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:247:1: ( () )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:248:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:194:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:195:1: ()
             {
              before(grammarAccess.getModelAccess().getModelAction_0()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:249:1: ()
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:251:1: 
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:196:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:198:1: 
             {
             }
 
@@ -644,16 +460,16 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Model__Group__1"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:261:1: rule__Model__Group__1 : rule__Model__Group__1__Impl ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:208:1: rule__Model__Group__1 : rule__Model__Group__1__Impl ;
     public final void rule__Model__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:265:1: ( rule__Model__Group__1__Impl )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:266:2: rule__Model__Group__1__Impl
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:212:1: ( rule__Model__Group__1__Impl )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:213:2: rule__Model__Group__1__Impl
             {
-            pushFollow(FOLLOW_rule__Model__Group__1__Impl_in_rule__Model__Group__1495);
+            pushFollow(FOLLOW_rule__Model__Group__1__Impl_in_rule__Model__Group__1372);
             rule__Model__Group__1__Impl();
 
             state._fsp--;
@@ -677,49 +493,31 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Model__Group__1__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:272:1: rule__Model__Group__1__Impl : ( ( rule__Model__CommandsAssignment_1 )* ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:219:1: rule__Model__Group__1__Impl : ( ( rule__Model__UnorderedGroup_1 ) ) ;
     public final void rule__Model__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:276:1: ( ( ( rule__Model__CommandsAssignment_1 )* ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:277:1: ( ( rule__Model__CommandsAssignment_1 )* )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:223:1: ( ( ( rule__Model__UnorderedGroup_1 ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:224:1: ( ( rule__Model__UnorderedGroup_1 ) )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:277:1: ( ( rule__Model__CommandsAssignment_1 )* )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:278:1: ( rule__Model__CommandsAssignment_1 )*
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:224:1: ( ( rule__Model__UnorderedGroup_1 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:225:1: ( rule__Model__UnorderedGroup_1 )
             {
-             before(grammarAccess.getModelAccess().getCommandsAssignment_1()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:279:1: ( rule__Model__CommandsAssignment_1 )*
-            loop2:
-            do {
-                int alt2=2;
-                int LA2_0 = input.LA(1);
+             before(grammarAccess.getModelAccess().getUnorderedGroup_1()); 
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:226:1: ( rule__Model__UnorderedGroup_1 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:226:2: rule__Model__UnorderedGroup_1
+            {
+            pushFollow(FOLLOW_rule__Model__UnorderedGroup_1_in_rule__Model__Group__1__Impl399);
+            rule__Model__UnorderedGroup_1();
 
-                if ( (LA2_0==11||LA2_0==14||LA2_0==16) ) {
-                    alt2=1;
-                }
+            state._fsp--;
 
 
-                switch (alt2) {
-            	case 1 :
-            	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:279:2: rule__Model__CommandsAssignment_1
-            	    {
-            	    pushFollow(FOLLOW_rule__Model__CommandsAssignment_1_in_rule__Model__Group__1__Impl522);
-            	    rule__Model__CommandsAssignment_1();
+            }
 
-            	    state._fsp--;
-
-
-            	    }
-            	    break;
-
-            	default :
-            	    break loop2;
-                }
-            } while (true);
-
-             after(grammarAccess.getModelAccess().getCommandsAssignment_1()); 
+             after(grammarAccess.getModelAccess().getUnorderedGroup_1()); 
 
             }
 
@@ -742,21 +540,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__0"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:293:1: rule__ENC__Group__0 : rule__ENC__Group__0__Impl rule__ENC__Group__1 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:240:1: rule__ENC__Group__0 : rule__ENC__Group__0__Impl rule__ENC__Group__1 ;
     public final void rule__ENC__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:297:1: ( rule__ENC__Group__0__Impl rule__ENC__Group__1 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:298:2: rule__ENC__Group__0__Impl rule__ENC__Group__1
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:244:1: ( rule__ENC__Group__0__Impl rule__ENC__Group__1 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:245:2: rule__ENC__Group__0__Impl rule__ENC__Group__1
             {
-            pushFollow(FOLLOW_rule__ENC__Group__0__Impl_in_rule__ENC__Group__0557);
+            pushFollow(FOLLOW_rule__ENC__Group__0__Impl_in_rule__ENC__Group__0433);
             rule__ENC__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ENC__Group__1_in_rule__ENC__Group__0560);
+            pushFollow(FOLLOW_rule__ENC__Group__1_in_rule__ENC__Group__0436);
             rule__ENC__Group__1();
 
             state._fsp--;
@@ -780,21 +578,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__0__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:305:1: rule__ENC__Group__0__Impl : ( () ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:252:1: rule__ENC__Group__0__Impl : ( () ) ;
     public final void rule__ENC__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:309:1: ( ( () ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:310:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:256:1: ( ( () ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:257:1: ( () )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:310:1: ( () )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:311:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:257:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:258:1: ()
             {
              before(grammarAccess.getENCAccess().getENCAction_0()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:312:1: ()
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:314:1: 
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:259:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:261:1: 
             {
             }
 
@@ -817,21 +615,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__1"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:324:1: rule__ENC__Group__1 : rule__ENC__Group__1__Impl rule__ENC__Group__2 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:271:1: rule__ENC__Group__1 : rule__ENC__Group__1__Impl rule__ENC__Group__2 ;
     public final void rule__ENC__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:328:1: ( rule__ENC__Group__1__Impl rule__ENC__Group__2 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:329:2: rule__ENC__Group__1__Impl rule__ENC__Group__2
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:275:1: ( rule__ENC__Group__1__Impl rule__ENC__Group__2 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:276:2: rule__ENC__Group__1__Impl rule__ENC__Group__2
             {
-            pushFollow(FOLLOW_rule__ENC__Group__1__Impl_in_rule__ENC__Group__1618);
+            pushFollow(FOLLOW_rule__ENC__Group__1__Impl_in_rule__ENC__Group__1494);
             rule__ENC__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ENC__Group__2_in_rule__ENC__Group__1621);
+            pushFollow(FOLLOW_rule__ENC__Group__2_in_rule__ENC__Group__1497);
             rule__ENC__Group__2();
 
             state._fsp--;
@@ -855,20 +653,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__1__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:336:1: rule__ENC__Group__1__Impl : ( 'ENC' ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:283:1: rule__ENC__Group__1__Impl : ( 'ENC' ) ;
     public final void rule__ENC__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:340:1: ( ( 'ENC' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:341:1: ( 'ENC' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:287:1: ( ( 'ENC' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:288:1: ( 'ENC' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:341:1: ( 'ENC' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:342:1: 'ENC'
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:288:1: ( 'ENC' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:289:1: 'ENC'
             {
              before(grammarAccess.getENCAccess().getENCKeyword_1()); 
-            match(input,11,FOLLOW_11_in_rule__ENC__Group__1__Impl649); 
+            match(input,11,FOLLOW_11_in_rule__ENC__Group__1__Impl525); 
              after(grammarAccess.getENCAccess().getENCKeyword_1()); 
 
             }
@@ -892,21 +690,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__2"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:355:1: rule__ENC__Group__2 : rule__ENC__Group__2__Impl rule__ENC__Group__3 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:302:1: rule__ENC__Group__2 : rule__ENC__Group__2__Impl rule__ENC__Group__3 ;
     public final void rule__ENC__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:359:1: ( rule__ENC__Group__2__Impl rule__ENC__Group__3 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:360:2: rule__ENC__Group__2__Impl rule__ENC__Group__3
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:306:1: ( rule__ENC__Group__2__Impl rule__ENC__Group__3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:307:2: rule__ENC__Group__2__Impl rule__ENC__Group__3
             {
-            pushFollow(FOLLOW_rule__ENC__Group__2__Impl_in_rule__ENC__Group__2680);
+            pushFollow(FOLLOW_rule__ENC__Group__2__Impl_in_rule__ENC__Group__2556);
             rule__ENC__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ENC__Group__3_in_rule__ENC__Group__2683);
+            pushFollow(FOLLOW_rule__ENC__Group__3_in_rule__ENC__Group__2559);
             rule__ENC__Group__3();
 
             state._fsp--;
@@ -930,20 +728,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__2__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:367:1: rule__ENC__Group__2__Impl : ( '{' ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:314:1: rule__ENC__Group__2__Impl : ( '{' ) ;
     public final void rule__ENC__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:371:1: ( ( '{' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:372:1: ( '{' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:318:1: ( ( '{' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:319:1: ( '{' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:372:1: ( '{' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:373:1: '{'
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:319:1: ( '{' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:320:1: '{'
             {
              before(grammarAccess.getENCAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,12,FOLLOW_12_in_rule__ENC__Group__2__Impl711); 
+            match(input,12,FOLLOW_12_in_rule__ENC__Group__2__Impl587); 
              after(grammarAccess.getENCAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -967,21 +765,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__3"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:386:1: rule__ENC__Group__3 : rule__ENC__Group__3__Impl rule__ENC__Group__4 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:333:1: rule__ENC__Group__3 : rule__ENC__Group__3__Impl rule__ENC__Group__4 ;
     public final void rule__ENC__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:390:1: ( rule__ENC__Group__3__Impl rule__ENC__Group__4 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:391:2: rule__ENC__Group__3__Impl rule__ENC__Group__4
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:337:1: ( rule__ENC__Group__3__Impl rule__ENC__Group__4 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:338:2: rule__ENC__Group__3__Impl rule__ENC__Group__4
             {
-            pushFollow(FOLLOW_rule__ENC__Group__3__Impl_in_rule__ENC__Group__3742);
+            pushFollow(FOLLOW_rule__ENC__Group__3__Impl_in_rule__ENC__Group__3618);
             rule__ENC__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ENC__Group__4_in_rule__ENC__Group__3745);
+            pushFollow(FOLLOW_rule__ENC__Group__4_in_rule__ENC__Group__3621);
             rule__ENC__Group__4();
 
             state._fsp--;
@@ -1005,23 +803,23 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__3__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:398:1: rule__ENC__Group__3__Impl : ( ( rule__ENC__PassAssignment_3 ) ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:345:1: rule__ENC__Group__3__Impl : ( ( rule__ENC__PassAssignment_3 ) ) ;
     public final void rule__ENC__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:402:1: ( ( ( rule__ENC__PassAssignment_3 ) ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:403:1: ( ( rule__ENC__PassAssignment_3 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:349:1: ( ( ( rule__ENC__PassAssignment_3 ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:350:1: ( ( rule__ENC__PassAssignment_3 ) )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:403:1: ( ( rule__ENC__PassAssignment_3 ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:404:1: ( rule__ENC__PassAssignment_3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:350:1: ( ( rule__ENC__PassAssignment_3 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:351:1: ( rule__ENC__PassAssignment_3 )
             {
              before(grammarAccess.getENCAccess().getPassAssignment_3()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:405:1: ( rule__ENC__PassAssignment_3 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:405:2: rule__ENC__PassAssignment_3
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:352:1: ( rule__ENC__PassAssignment_3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:352:2: rule__ENC__PassAssignment_3
             {
-            pushFollow(FOLLOW_rule__ENC__PassAssignment_3_in_rule__ENC__Group__3__Impl772);
+            pushFollow(FOLLOW_rule__ENC__PassAssignment_3_in_rule__ENC__Group__3__Impl648);
             rule__ENC__PassAssignment_3();
 
             state._fsp--;
@@ -1052,16 +850,16 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__4"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:415:1: rule__ENC__Group__4 : rule__ENC__Group__4__Impl ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:362:1: rule__ENC__Group__4 : rule__ENC__Group__4__Impl ;
     public final void rule__ENC__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:419:1: ( rule__ENC__Group__4__Impl )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:420:2: rule__ENC__Group__4__Impl
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:366:1: ( rule__ENC__Group__4__Impl )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:367:2: rule__ENC__Group__4__Impl
             {
-            pushFollow(FOLLOW_rule__ENC__Group__4__Impl_in_rule__ENC__Group__4802);
+            pushFollow(FOLLOW_rule__ENC__Group__4__Impl_in_rule__ENC__Group__4678);
             rule__ENC__Group__4__Impl();
 
             state._fsp--;
@@ -1085,20 +883,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ENC__Group__4__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:426:1: rule__ENC__Group__4__Impl : ( '}' ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:373:1: rule__ENC__Group__4__Impl : ( '}' ) ;
     public final void rule__ENC__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:430:1: ( ( '}' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:431:1: ( '}' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:377:1: ( ( '}' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:378:1: ( '}' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:431:1: ( '}' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:432:1: '}'
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:378:1: ( '}' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:379:1: '}'
             {
              before(grammarAccess.getENCAccess().getRightCurlyBracketKeyword_4()); 
-            match(input,13,FOLLOW_13_in_rule__ENC__Group__4__Impl830); 
+            match(input,13,FOLLOW_13_in_rule__ENC__Group__4__Impl706); 
              after(grammarAccess.getENCAccess().getRightCurlyBracketKeyword_4()); 
 
             }
@@ -1122,21 +920,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__0"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:455:1: rule__PASS__Group__0 : rule__PASS__Group__0__Impl rule__PASS__Group__1 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:402:1: rule__PASS__Group__0 : rule__PASS__Group__0__Impl rule__PASS__Group__1 ;
     public final void rule__PASS__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:459:1: ( rule__PASS__Group__0__Impl rule__PASS__Group__1 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:460:2: rule__PASS__Group__0__Impl rule__PASS__Group__1
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:406:1: ( rule__PASS__Group__0__Impl rule__PASS__Group__1 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:407:2: rule__PASS__Group__0__Impl rule__PASS__Group__1
             {
-            pushFollow(FOLLOW_rule__PASS__Group__0__Impl_in_rule__PASS__Group__0871);
+            pushFollow(FOLLOW_rule__PASS__Group__0__Impl_in_rule__PASS__Group__0747);
             rule__PASS__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__PASS__Group__1_in_rule__PASS__Group__0874);
+            pushFollow(FOLLOW_rule__PASS__Group__1_in_rule__PASS__Group__0750);
             rule__PASS__Group__1();
 
             state._fsp--;
@@ -1160,21 +958,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__0__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:467:1: rule__PASS__Group__0__Impl : ( () ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:414:1: rule__PASS__Group__0__Impl : ( () ) ;
     public final void rule__PASS__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:471:1: ( ( () ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:472:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:418:1: ( ( () ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:419:1: ( () )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:472:1: ( () )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:473:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:419:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:420:1: ()
             {
              before(grammarAccess.getPASSAccess().getPASSAction_0()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:474:1: ()
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:476:1: 
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:421:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:423:1: 
             {
             }
 
@@ -1197,21 +995,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__1"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:486:1: rule__PASS__Group__1 : rule__PASS__Group__1__Impl rule__PASS__Group__2 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:433:1: rule__PASS__Group__1 : rule__PASS__Group__1__Impl rule__PASS__Group__2 ;
     public final void rule__PASS__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:490:1: ( rule__PASS__Group__1__Impl rule__PASS__Group__2 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:491:2: rule__PASS__Group__1__Impl rule__PASS__Group__2
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:437:1: ( rule__PASS__Group__1__Impl rule__PASS__Group__2 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:438:2: rule__PASS__Group__1__Impl rule__PASS__Group__2
             {
-            pushFollow(FOLLOW_rule__PASS__Group__1__Impl_in_rule__PASS__Group__1932);
+            pushFollow(FOLLOW_rule__PASS__Group__1__Impl_in_rule__PASS__Group__1808);
             rule__PASS__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__PASS__Group__2_in_rule__PASS__Group__1935);
+            pushFollow(FOLLOW_rule__PASS__Group__2_in_rule__PASS__Group__1811);
             rule__PASS__Group__2();
 
             state._fsp--;
@@ -1235,20 +1033,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__1__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:498:1: rule__PASS__Group__1__Impl : ( 'pas' ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:445:1: rule__PASS__Group__1__Impl : ( 'pas' ) ;
     public final void rule__PASS__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:502:1: ( ( 'pas' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:503:1: ( 'pas' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:449:1: ( ( 'pas' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:450:1: ( 'pas' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:503:1: ( 'pas' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:504:1: 'pas'
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:450:1: ( 'pas' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:451:1: 'pas'
             {
              before(grammarAccess.getPASSAccess().getPasKeyword_1()); 
-            match(input,14,FOLLOW_14_in_rule__PASS__Group__1__Impl963); 
+            match(input,14,FOLLOW_14_in_rule__PASS__Group__1__Impl839); 
              after(grammarAccess.getPASSAccess().getPasKeyword_1()); 
 
             }
@@ -1272,21 +1070,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__2"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:517:1: rule__PASS__Group__2 : rule__PASS__Group__2__Impl rule__PASS__Group__3 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:464:1: rule__PASS__Group__2 : rule__PASS__Group__2__Impl rule__PASS__Group__3 ;
     public final void rule__PASS__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:521:1: ( rule__PASS__Group__2__Impl rule__PASS__Group__3 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:522:2: rule__PASS__Group__2__Impl rule__PASS__Group__3
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:468:1: ( rule__PASS__Group__2__Impl rule__PASS__Group__3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:469:2: rule__PASS__Group__2__Impl rule__PASS__Group__3
             {
-            pushFollow(FOLLOW_rule__PASS__Group__2__Impl_in_rule__PASS__Group__2994);
+            pushFollow(FOLLOW_rule__PASS__Group__2__Impl_in_rule__PASS__Group__2870);
             rule__PASS__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__PASS__Group__3_in_rule__PASS__Group__2997);
+            pushFollow(FOLLOW_rule__PASS__Group__3_in_rule__PASS__Group__2873);
             rule__PASS__Group__3();
 
             state._fsp--;
@@ -1310,20 +1108,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__2__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:529:1: rule__PASS__Group__2__Impl : ( '=' ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:476:1: rule__PASS__Group__2__Impl : ( '=' ) ;
     public final void rule__PASS__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:533:1: ( ( '=' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:534:1: ( '=' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:480:1: ( ( '=' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:481:1: ( '=' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:534:1: ( '=' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:535:1: '='
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:481:1: ( '=' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:482:1: '='
             {
              before(grammarAccess.getPASSAccess().getEqualsSignKeyword_2()); 
-            match(input,15,FOLLOW_15_in_rule__PASS__Group__2__Impl1025); 
+            match(input,15,FOLLOW_15_in_rule__PASS__Group__2__Impl901); 
              after(grammarAccess.getPASSAccess().getEqualsSignKeyword_2()); 
 
             }
@@ -1347,16 +1145,16 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__3"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:548:1: rule__PASS__Group__3 : rule__PASS__Group__3__Impl ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:495:1: rule__PASS__Group__3 : rule__PASS__Group__3__Impl ;
     public final void rule__PASS__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:552:1: ( rule__PASS__Group__3__Impl )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:553:2: rule__PASS__Group__3__Impl
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:499:1: ( rule__PASS__Group__3__Impl )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:500:2: rule__PASS__Group__3__Impl
             {
-            pushFollow(FOLLOW_rule__PASS__Group__3__Impl_in_rule__PASS__Group__31056);
+            pushFollow(FOLLOW_rule__PASS__Group__3__Impl_in_rule__PASS__Group__3932);
             rule__PASS__Group__3__Impl();
 
             state._fsp--;
@@ -1380,23 +1178,23 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__Group__3__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:559:1: rule__PASS__Group__3__Impl : ( ( rule__PASS__PassAssignment_3 ) ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:506:1: rule__PASS__Group__3__Impl : ( ( rule__PASS__PassAssignment_3 ) ) ;
     public final void rule__PASS__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:563:1: ( ( ( rule__PASS__PassAssignment_3 ) ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:564:1: ( ( rule__PASS__PassAssignment_3 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:510:1: ( ( ( rule__PASS__PassAssignment_3 ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:511:1: ( ( rule__PASS__PassAssignment_3 ) )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:564:1: ( ( rule__PASS__PassAssignment_3 ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:565:1: ( rule__PASS__PassAssignment_3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:511:1: ( ( rule__PASS__PassAssignment_3 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:512:1: ( rule__PASS__PassAssignment_3 )
             {
              before(grammarAccess.getPASSAccess().getPassAssignment_3()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:566:1: ( rule__PASS__PassAssignment_3 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:566:2: rule__PASS__PassAssignment_3
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:513:1: ( rule__PASS__PassAssignment_3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:513:2: rule__PASS__PassAssignment_3
             {
-            pushFollow(FOLLOW_rule__PASS__PassAssignment_3_in_rule__PASS__Group__3__Impl1083);
+            pushFollow(FOLLOW_rule__PASS__PassAssignment_3_in_rule__PASS__Group__3__Impl959);
             rule__PASS__PassAssignment_3();
 
             state._fsp--;
@@ -1427,21 +1225,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__0"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:584:1: rule__USER__Group__0 : rule__USER__Group__0__Impl rule__USER__Group__1 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:531:1: rule__USER__Group__0 : rule__USER__Group__0__Impl rule__USER__Group__1 ;
     public final void rule__USER__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:588:1: ( rule__USER__Group__0__Impl rule__USER__Group__1 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:589:2: rule__USER__Group__0__Impl rule__USER__Group__1
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:535:1: ( rule__USER__Group__0__Impl rule__USER__Group__1 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:536:2: rule__USER__Group__0__Impl rule__USER__Group__1
             {
-            pushFollow(FOLLOW_rule__USER__Group__0__Impl_in_rule__USER__Group__01121);
+            pushFollow(FOLLOW_rule__USER__Group__0__Impl_in_rule__USER__Group__0997);
             rule__USER__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__USER__Group__1_in_rule__USER__Group__01124);
+            pushFollow(FOLLOW_rule__USER__Group__1_in_rule__USER__Group__01000);
             rule__USER__Group__1();
 
             state._fsp--;
@@ -1465,21 +1263,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__0__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:596:1: rule__USER__Group__0__Impl : ( () ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:543:1: rule__USER__Group__0__Impl : ( () ) ;
     public final void rule__USER__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:600:1: ( ( () ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:601:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:547:1: ( ( () ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:548:1: ( () )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:601:1: ( () )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:602:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:548:1: ( () )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:549:1: ()
             {
              before(grammarAccess.getUSERAccess().getUSERAction_0()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:603:1: ()
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:605:1: 
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:550:1: ()
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:552:1: 
             {
             }
 
@@ -1502,21 +1300,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__1"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:615:1: rule__USER__Group__1 : rule__USER__Group__1__Impl rule__USER__Group__2 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:562:1: rule__USER__Group__1 : rule__USER__Group__1__Impl rule__USER__Group__2 ;
     public final void rule__USER__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:619:1: ( rule__USER__Group__1__Impl rule__USER__Group__2 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:620:2: rule__USER__Group__1__Impl rule__USER__Group__2
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:566:1: ( rule__USER__Group__1__Impl rule__USER__Group__2 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:567:2: rule__USER__Group__1__Impl rule__USER__Group__2
             {
-            pushFollow(FOLLOW_rule__USER__Group__1__Impl_in_rule__USER__Group__11182);
+            pushFollow(FOLLOW_rule__USER__Group__1__Impl_in_rule__USER__Group__11058);
             rule__USER__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__USER__Group__2_in_rule__USER__Group__11185);
+            pushFollow(FOLLOW_rule__USER__Group__2_in_rule__USER__Group__11061);
             rule__USER__Group__2();
 
             state._fsp--;
@@ -1540,20 +1338,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__1__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:627:1: rule__USER__Group__1__Impl : ( 'user' ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:574:1: rule__USER__Group__1__Impl : ( 'user' ) ;
     public final void rule__USER__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:631:1: ( ( 'user' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:632:1: ( 'user' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:578:1: ( ( 'user' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:579:1: ( 'user' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:632:1: ( 'user' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:633:1: 'user'
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:579:1: ( 'user' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:580:1: 'user'
             {
              before(grammarAccess.getUSERAccess().getUserKeyword_1()); 
-            match(input,16,FOLLOW_16_in_rule__USER__Group__1__Impl1213); 
+            match(input,16,FOLLOW_16_in_rule__USER__Group__1__Impl1089); 
              after(grammarAccess.getUSERAccess().getUserKeyword_1()); 
 
             }
@@ -1577,21 +1375,21 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__2"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:646:1: rule__USER__Group__2 : rule__USER__Group__2__Impl rule__USER__Group__3 ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:593:1: rule__USER__Group__2 : rule__USER__Group__2__Impl rule__USER__Group__3 ;
     public final void rule__USER__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:650:1: ( rule__USER__Group__2__Impl rule__USER__Group__3 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:651:2: rule__USER__Group__2__Impl rule__USER__Group__3
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:597:1: ( rule__USER__Group__2__Impl rule__USER__Group__3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:598:2: rule__USER__Group__2__Impl rule__USER__Group__3
             {
-            pushFollow(FOLLOW_rule__USER__Group__2__Impl_in_rule__USER__Group__21244);
+            pushFollow(FOLLOW_rule__USER__Group__2__Impl_in_rule__USER__Group__21120);
             rule__USER__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__USER__Group__3_in_rule__USER__Group__21247);
+            pushFollow(FOLLOW_rule__USER__Group__3_in_rule__USER__Group__21123);
             rule__USER__Group__3();
 
             state._fsp--;
@@ -1615,20 +1413,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__2__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:658:1: rule__USER__Group__2__Impl : ( '=' ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:605:1: rule__USER__Group__2__Impl : ( '=' ) ;
     public final void rule__USER__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:662:1: ( ( '=' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:663:1: ( '=' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:609:1: ( ( '=' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:610:1: ( '=' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:663:1: ( '=' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:664:1: '='
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:610:1: ( '=' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:611:1: '='
             {
              before(grammarAccess.getUSERAccess().getEqualsSignKeyword_2()); 
-            match(input,15,FOLLOW_15_in_rule__USER__Group__2__Impl1275); 
+            match(input,15,FOLLOW_15_in_rule__USER__Group__2__Impl1151); 
              after(grammarAccess.getUSERAccess().getEqualsSignKeyword_2()); 
 
             }
@@ -1652,16 +1450,16 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__3"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:677:1: rule__USER__Group__3 : rule__USER__Group__3__Impl ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:624:1: rule__USER__Group__3 : rule__USER__Group__3__Impl ;
     public final void rule__USER__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:681:1: ( rule__USER__Group__3__Impl )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:682:2: rule__USER__Group__3__Impl
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:628:1: ( rule__USER__Group__3__Impl )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:629:2: rule__USER__Group__3__Impl
             {
-            pushFollow(FOLLOW_rule__USER__Group__3__Impl_in_rule__USER__Group__31306);
+            pushFollow(FOLLOW_rule__USER__Group__3__Impl_in_rule__USER__Group__31182);
             rule__USER__Group__3__Impl();
 
             state._fsp--;
@@ -1685,23 +1483,23 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__Group__3__Impl"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:688:1: rule__USER__Group__3__Impl : ( ( rule__USER__UserAssignment_3 ) ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:635:1: rule__USER__Group__3__Impl : ( ( rule__USER__UserAssignment_3 ) ) ;
     public final void rule__USER__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:692:1: ( ( ( rule__USER__UserAssignment_3 ) ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:693:1: ( ( rule__USER__UserAssignment_3 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:639:1: ( ( ( rule__USER__UserAssignment_3 ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:640:1: ( ( rule__USER__UserAssignment_3 ) )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:693:1: ( ( rule__USER__UserAssignment_3 ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:694:1: ( rule__USER__UserAssignment_3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:640:1: ( ( rule__USER__UserAssignment_3 ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:641:1: ( rule__USER__UserAssignment_3 )
             {
              before(grammarAccess.getUSERAccess().getUserAssignment_3()); 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:695:1: ( rule__USER__UserAssignment_3 )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:695:2: rule__USER__UserAssignment_3
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:642:1: ( rule__USER__UserAssignment_3 )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:642:2: rule__USER__UserAssignment_3
             {
-            pushFollow(FOLLOW_rule__USER__UserAssignment_3_in_rule__USER__Group__3__Impl1333);
+            pushFollow(FOLLOW_rule__USER__UserAssignment_3_in_rule__USER__Group__3__Impl1209);
             rule__USER__UserAssignment_3();
 
             state._fsp--;
@@ -1731,26 +1529,296 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "rule__USER__Group__3__Impl"
 
 
-    // $ANTLR start "rule__Model__CommandsAssignment_1"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:714:1: rule__Model__CommandsAssignment_1 : ( ruleCommand ) ;
-    public final void rule__Model__CommandsAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__Model__UnorderedGroup_1"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:661:1: rule__Model__UnorderedGroup_1 : ( rule__Model__UnorderedGroup_1__0 )? ;
+    public final void rule__Model__UnorderedGroup_1() throws RecognitionException {
+
+            	int stackSize = keepStackSize();
+        		getUnorderedGroupHelper().enter(grammarAccess.getModelAccess().getUnorderedGroup_1());
+            
+        try {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:666:1: ( ( rule__Model__UnorderedGroup_1__0 )? )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:667:2: ( rule__Model__UnorderedGroup_1__0 )?
+            {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:667:2: ( rule__Model__UnorderedGroup_1__0 )?
+            int alt1=2;
+            int LA1_0 = input.LA(1);
+
+            if ( LA1_0 ==16 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0) ) {
+                alt1=1;
+            }
+            else if ( LA1_0 ==14 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1) ) {
+                alt1=1;
+            }
+            else if ( LA1_0 ==11 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2) ) {
+                alt1=1;
+            }
+            switch (alt1) {
+                case 1 :
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:667:2: rule__Model__UnorderedGroup_1__0
+                    {
+                    pushFollow(FOLLOW_rule__Model__UnorderedGroup_1__0_in_rule__Model__UnorderedGroup_11248);
+                    rule__Model__UnorderedGroup_1__0();
+
+                    state._fsp--;
+
+
+                    }
+                    break;
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	getUnorderedGroupHelper().leave(grammarAccess.getModelAccess().getUnorderedGroup_1());
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Model__UnorderedGroup_1"
+
+
+    // $ANTLR start "rule__Model__UnorderedGroup_1__Impl"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:677:1: rule__Model__UnorderedGroup_1__Impl : ( ({...}? => ( ( ( rule__Model__CommandsAssignment_1_0 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_1 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_2 ) ) ) ) ) ;
+    public final void rule__Model__UnorderedGroup_1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        		boolean selected = false;
+            
+        try {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:682:1: ( ( ({...}? => ( ( ( rule__Model__CommandsAssignment_1_0 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_1 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_2 ) ) ) ) ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:683:3: ( ({...}? => ( ( ( rule__Model__CommandsAssignment_1_0 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_1 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_2 ) ) ) ) )
+            {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:683:3: ( ({...}? => ( ( ( rule__Model__CommandsAssignment_1_0 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_1 ) ) ) ) | ({...}? => ( ( ( rule__Model__CommandsAssignment_1_2 ) ) ) ) )
+            int alt2=3;
+            int LA2_0 = input.LA(1);
+
+            if ( LA2_0 ==16 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0) ) {
+                alt2=1;
+            }
+            else if ( LA2_0 ==14 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1) ) {
+                alt2=2;
+            }
+            else if ( LA2_0 ==11 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2) ) {
+                alt2=3;
+            }
+            else {
+                NoViableAltException nvae =
+                    new NoViableAltException("", 2, 0, input);
+
+                throw nvae;
+            }
+            switch (alt2) {
+                case 1 :
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:685:4: ({...}? => ( ( ( rule__Model__CommandsAssignment_1_0 ) ) ) )
+                    {
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:685:4: ({...}? => ( ( ( rule__Model__CommandsAssignment_1_0 ) ) ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:686:5: {...}? => ( ( ( rule__Model__CommandsAssignment_1_0 ) ) )
+                    {
+                    if ( ! getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0) ) {
+                        throw new FailedPredicateException(input, "rule__Model__UnorderedGroup_1__Impl", "getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0)");
+                    }
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:686:102: ( ( ( rule__Model__CommandsAssignment_1_0 ) ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:687:6: ( ( rule__Model__CommandsAssignment_1_0 ) )
+                    {
+                     
+                    	 				  getUnorderedGroupHelper().select(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0);
+                    	 				
+
+                    	 				  selected = true;
+                    	 				
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:693:6: ( ( rule__Model__CommandsAssignment_1_0 ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:695:7: ( rule__Model__CommandsAssignment_1_0 )
+                    {
+                     before(grammarAccess.getModelAccess().getCommandsAssignment_1_0()); 
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:696:7: ( rule__Model__CommandsAssignment_1_0 )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:696:8: rule__Model__CommandsAssignment_1_0
+                    {
+                    pushFollow(FOLLOW_rule__Model__CommandsAssignment_1_0_in_rule__Model__UnorderedGroup_1__Impl1335);
+                    rule__Model__CommandsAssignment_1_0();
+
+                    state._fsp--;
+
+
+                    }
+
+                     after(grammarAccess.getModelAccess().getCommandsAssignment_1_0()); 
+
+                    }
+
+
+                    }
+
+
+                    }
+
+
+                    }
+                    break;
+                case 2 :
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:702:4: ({...}? => ( ( ( rule__Model__CommandsAssignment_1_1 ) ) ) )
+                    {
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:702:4: ({...}? => ( ( ( rule__Model__CommandsAssignment_1_1 ) ) ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:703:5: {...}? => ( ( ( rule__Model__CommandsAssignment_1_1 ) ) )
+                    {
+                    if ( ! getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1) ) {
+                        throw new FailedPredicateException(input, "rule__Model__UnorderedGroup_1__Impl", "getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1)");
+                    }
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:703:102: ( ( ( rule__Model__CommandsAssignment_1_1 ) ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:704:6: ( ( rule__Model__CommandsAssignment_1_1 ) )
+                    {
+                     
+                    	 				  getUnorderedGroupHelper().select(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1);
+                    	 				
+
+                    	 				  selected = true;
+                    	 				
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:710:6: ( ( rule__Model__CommandsAssignment_1_1 ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:712:7: ( rule__Model__CommandsAssignment_1_1 )
+                    {
+                     before(grammarAccess.getModelAccess().getCommandsAssignment_1_1()); 
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:713:7: ( rule__Model__CommandsAssignment_1_1 )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:713:8: rule__Model__CommandsAssignment_1_1
+                    {
+                    pushFollow(FOLLOW_rule__Model__CommandsAssignment_1_1_in_rule__Model__UnorderedGroup_1__Impl1426);
+                    rule__Model__CommandsAssignment_1_1();
+
+                    state._fsp--;
+
+
+                    }
+
+                     after(grammarAccess.getModelAccess().getCommandsAssignment_1_1()); 
+
+                    }
+
+
+                    }
+
+
+                    }
+
+
+                    }
+                    break;
+                case 3 :
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:719:4: ({...}? => ( ( ( rule__Model__CommandsAssignment_1_2 ) ) ) )
+                    {
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:719:4: ({...}? => ( ( ( rule__Model__CommandsAssignment_1_2 ) ) ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:720:5: {...}? => ( ( ( rule__Model__CommandsAssignment_1_2 ) ) )
+                    {
+                    if ( ! getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2) ) {
+                        throw new FailedPredicateException(input, "rule__Model__UnorderedGroup_1__Impl", "getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2)");
+                    }
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:720:102: ( ( ( rule__Model__CommandsAssignment_1_2 ) ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:721:6: ( ( rule__Model__CommandsAssignment_1_2 ) )
+                    {
+                     
+                    	 				  getUnorderedGroupHelper().select(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2);
+                    	 				
+
+                    	 				  selected = true;
+                    	 				
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:727:6: ( ( rule__Model__CommandsAssignment_1_2 ) )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:729:7: ( rule__Model__CommandsAssignment_1_2 )
+                    {
+                     before(grammarAccess.getModelAccess().getCommandsAssignment_1_2()); 
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:730:7: ( rule__Model__CommandsAssignment_1_2 )
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:730:8: rule__Model__CommandsAssignment_1_2
+                    {
+                    pushFollow(FOLLOW_rule__Model__CommandsAssignment_1_2_in_rule__Model__UnorderedGroup_1__Impl1517);
+                    rule__Model__CommandsAssignment_1_2();
+
+                    state._fsp--;
+
+
+                    }
+
+                     after(grammarAccess.getModelAccess().getCommandsAssignment_1_2()); 
+
+                    }
+
+
+                    }
+
+
+                    }
+
+
+                    }
+                    break;
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	if (selected)
+            		getUnorderedGroupHelper().returnFromSelection(grammarAccess.getModelAccess().getUnorderedGroup_1());
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Model__UnorderedGroup_1__Impl"
+
+
+    // $ANTLR start "rule__Model__UnorderedGroup_1__0"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:745:1: rule__Model__UnorderedGroup_1__0 : rule__Model__UnorderedGroup_1__Impl ( rule__Model__UnorderedGroup_1__1 )? ;
+    public final void rule__Model__UnorderedGroup_1__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:718:1: ( ( ruleCommand ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:719:1: ( ruleCommand )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:749:1: ( rule__Model__UnorderedGroup_1__Impl ( rule__Model__UnorderedGroup_1__1 )? )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:750:2: rule__Model__UnorderedGroup_1__Impl ( rule__Model__UnorderedGroup_1__1 )?
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:719:1: ( ruleCommand )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:720:1: ruleCommand
-            {
-             before(grammarAccess.getModelAccess().getCommandsCommandParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleCommand_in_rule__Model__CommandsAssignment_11376);
-            ruleCommand();
+            pushFollow(FOLLOW_rule__Model__UnorderedGroup_1__Impl_in_rule__Model__UnorderedGroup_1__01576);
+            rule__Model__UnorderedGroup_1__Impl();
 
             state._fsp--;
 
-             after(grammarAccess.getModelAccess().getCommandsCommandParserRuleCall_1_0()); 
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:751:2: ( rule__Model__UnorderedGroup_1__1 )?
+            int alt3=2;
+            int LA3_0 = input.LA(1);
+
+            if ( LA3_0 ==16 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0) ) {
+                alt3=1;
+            }
+            else if ( LA3_0 ==14 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1) ) {
+                alt3=1;
+            }
+            else if ( LA3_0 ==11 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2) ) {
+                alt3=1;
+            }
+            switch (alt3) {
+                case 1 :
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:751:2: rule__Model__UnorderedGroup_1__1
+                    {
+                    pushFollow(FOLLOW_rule__Model__UnorderedGroup_1__1_in_rule__Model__UnorderedGroup_1__01579);
+                    rule__Model__UnorderedGroup_1__1();
+
+                    state._fsp--;
+
+
+                    }
+                    break;
 
             }
 
@@ -1769,24 +1837,241 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Model__CommandsAssignment_1"
+    // $ANTLR end "rule__Model__UnorderedGroup_1__0"
+
+
+    // $ANTLR start "rule__Model__UnorderedGroup_1__1"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:758:1: rule__Model__UnorderedGroup_1__1 : rule__Model__UnorderedGroup_1__Impl ( rule__Model__UnorderedGroup_1__2 )? ;
+    public final void rule__Model__UnorderedGroup_1__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:762:1: ( rule__Model__UnorderedGroup_1__Impl ( rule__Model__UnorderedGroup_1__2 )? )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:763:2: rule__Model__UnorderedGroup_1__Impl ( rule__Model__UnorderedGroup_1__2 )?
+            {
+            pushFollow(FOLLOW_rule__Model__UnorderedGroup_1__Impl_in_rule__Model__UnorderedGroup_1__11604);
+            rule__Model__UnorderedGroup_1__Impl();
+
+            state._fsp--;
+
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:764:2: ( rule__Model__UnorderedGroup_1__2 )?
+            int alt4=2;
+            int LA4_0 = input.LA(1);
+
+            if ( LA4_0 ==16 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0) ) {
+                alt4=1;
+            }
+            else if ( LA4_0 ==14 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1) ) {
+                alt4=1;
+            }
+            else if ( LA4_0 ==11 && getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2) ) {
+                alt4=1;
+            }
+            switch (alt4) {
+                case 1 :
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:764:2: rule__Model__UnorderedGroup_1__2
+                    {
+                    pushFollow(FOLLOW_rule__Model__UnorderedGroup_1__2_in_rule__Model__UnorderedGroup_1__11607);
+                    rule__Model__UnorderedGroup_1__2();
+
+                    state._fsp--;
+
+
+                    }
+                    break;
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Model__UnorderedGroup_1__1"
+
+
+    // $ANTLR start "rule__Model__UnorderedGroup_1__2"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:771:1: rule__Model__UnorderedGroup_1__2 : rule__Model__UnorderedGroup_1__Impl ;
+    public final void rule__Model__UnorderedGroup_1__2() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:775:1: ( rule__Model__UnorderedGroup_1__Impl )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:776:2: rule__Model__UnorderedGroup_1__Impl
+            {
+            pushFollow(FOLLOW_rule__Model__UnorderedGroup_1__Impl_in_rule__Model__UnorderedGroup_1__21632);
+            rule__Model__UnorderedGroup_1__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Model__UnorderedGroup_1__2"
+
+
+    // $ANTLR start "rule__Model__CommandsAssignment_1_0"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:789:1: rule__Model__CommandsAssignment_1_0 : ( ruleUSER ) ;
+    public final void rule__Model__CommandsAssignment_1_0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:793:1: ( ( ruleUSER ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:794:1: ( ruleUSER )
+            {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:794:1: ( ruleUSER )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:795:1: ruleUSER
+            {
+             before(grammarAccess.getModelAccess().getCommandsUSERParserRuleCall_1_0_0()); 
+            pushFollow(FOLLOW_ruleUSER_in_rule__Model__CommandsAssignment_1_01666);
+            ruleUSER();
+
+            state._fsp--;
+
+             after(grammarAccess.getModelAccess().getCommandsUSERParserRuleCall_1_0_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Model__CommandsAssignment_1_0"
+
+
+    // $ANTLR start "rule__Model__CommandsAssignment_1_1"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:804:1: rule__Model__CommandsAssignment_1_1 : ( rulePASS ) ;
+    public final void rule__Model__CommandsAssignment_1_1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:808:1: ( ( rulePASS ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:809:1: ( rulePASS )
+            {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:809:1: ( rulePASS )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:810:1: rulePASS
+            {
+             before(grammarAccess.getModelAccess().getCommandsPASSParserRuleCall_1_1_0()); 
+            pushFollow(FOLLOW_rulePASS_in_rule__Model__CommandsAssignment_1_11697);
+            rulePASS();
+
+            state._fsp--;
+
+             after(grammarAccess.getModelAccess().getCommandsPASSParserRuleCall_1_1_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Model__CommandsAssignment_1_1"
+
+
+    // $ANTLR start "rule__Model__CommandsAssignment_1_2"
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:819:1: rule__Model__CommandsAssignment_1_2 : ( ruleENC ) ;
+    public final void rule__Model__CommandsAssignment_1_2() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:823:1: ( ( ruleENC ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:824:1: ( ruleENC )
+            {
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:824:1: ( ruleENC )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:825:1: ruleENC
+            {
+             before(grammarAccess.getModelAccess().getCommandsENCParserRuleCall_1_2_0()); 
+            pushFollow(FOLLOW_ruleENC_in_rule__Model__CommandsAssignment_1_21728);
+            ruleENC();
+
+            state._fsp--;
+
+             after(grammarAccess.getModelAccess().getCommandsENCParserRuleCall_1_2_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Model__CommandsAssignment_1_2"
 
 
     // $ANTLR start "rule__ENC__PassAssignment_3"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:729:1: rule__ENC__PassAssignment_3 : ( RULE_STRING ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:834:1: rule__ENC__PassAssignment_3 : ( RULE_STRING ) ;
     public final void rule__ENC__PassAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:733:1: ( ( RULE_STRING ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:734:1: ( RULE_STRING )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:838:1: ( ( RULE_STRING ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:839:1: ( RULE_STRING )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:734:1: ( RULE_STRING )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:735:1: RULE_STRING
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:839:1: ( RULE_STRING )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:840:1: RULE_STRING
             {
              before(grammarAccess.getENCAccess().getPassSTRINGTerminalRuleCall_3_0()); 
-            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__ENC__PassAssignment_31407); 
+            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__ENC__PassAssignment_31759); 
              after(grammarAccess.getENCAccess().getPassSTRINGTerminalRuleCall_3_0()); 
 
             }
@@ -1810,20 +2095,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PASS__PassAssignment_3"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:744:1: rule__PASS__PassAssignment_3 : ( RULE_STRING ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:849:1: rule__PASS__PassAssignment_3 : ( RULE_STRING ) ;
     public final void rule__PASS__PassAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:748:1: ( ( RULE_STRING ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:749:1: ( RULE_STRING )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:853:1: ( ( RULE_STRING ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:854:1: ( RULE_STRING )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:749:1: ( RULE_STRING )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:750:1: RULE_STRING
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:854:1: ( RULE_STRING )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:855:1: RULE_STRING
             {
              before(grammarAccess.getPASSAccess().getPassSTRINGTerminalRuleCall_3_0()); 
-            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__PASS__PassAssignment_31438); 
+            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__PASS__PassAssignment_31790); 
              after(grammarAccess.getPASSAccess().getPassSTRINGTerminalRuleCall_3_0()); 
 
             }
@@ -1847,20 +2132,20 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__USER__UserAssignment_3"
-    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:759:1: rule__USER__UserAssignment_3 : ( RULE_STRING ) ;
+    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:864:1: rule__USER__UserAssignment_3 : ( RULE_STRING ) ;
     public final void rule__USER__UserAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:763:1: ( ( RULE_STRING ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:764:1: ( RULE_STRING )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:868:1: ( ( RULE_STRING ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:869:1: ( RULE_STRING )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:764:1: ( RULE_STRING )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:765:1: RULE_STRING
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:869:1: ( RULE_STRING )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:870:1: RULE_STRING
             {
              before(grammarAccess.getUSERAccess().getUserSTRINGTerminalRuleCall_3_0()); 
-            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__USER__UserAssignment_31469); 
+            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__USER__UserAssignment_31821); 
              after(grammarAccess.getUSERAccess().getUserSTRINGTerminalRuleCall_3_0()); 
 
             }
@@ -1890,61 +2175,66 @@ public class InternalCommandParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_ruleModel_in_entryRuleModel61 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleModel68 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__Model__Group__0_in_ruleModel94 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCommand_in_entryRuleCommand121 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleCommand128 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Command__Alternatives_in_ruleCommand154 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleENC_in_entryRuleENC181 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleENC188 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ENC__Group__0_in_ruleENC214 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rulePASS_in_entryRulePASS241 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRulePASS248 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__PASS__Group__0_in_rulePASS274 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleUSER_in_entryRuleUSER301 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleUSER308 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__USER__Group__0_in_ruleUSER334 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleENC_in_rule__Command__Alternatives370 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rulePASS_in_rule__Command__Alternatives387 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleUSER_in_rule__Command__Alternatives404 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Model__Group__0__Impl_in_rule__Model__Group__0434 = new BitSet(new long[]{0x0000000000014800L});
-    public static final BitSet FOLLOW_rule__Model__Group__1_in_rule__Model__Group__0437 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Model__Group__1__Impl_in_rule__Model__Group__1495 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Model__CommandsAssignment_1_in_rule__Model__Group__1__Impl522 = new BitSet(new long[]{0x0000000000014802L});
-    public static final BitSet FOLLOW_rule__ENC__Group__0__Impl_in_rule__ENC__Group__0557 = new BitSet(new long[]{0x0000000000000800L});
-    public static final BitSet FOLLOW_rule__ENC__Group__1_in_rule__ENC__Group__0560 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ENC__Group__1__Impl_in_rule__ENC__Group__1618 = new BitSet(new long[]{0x0000000000001000L});
-    public static final BitSet FOLLOW_rule__ENC__Group__2_in_rule__ENC__Group__1621 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_11_in_rule__ENC__Group__1__Impl649 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ENC__Group__2__Impl_in_rule__ENC__Group__2680 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__ENC__Group__3_in_rule__ENC__Group__2683 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_12_in_rule__ENC__Group__2__Impl711 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ENC__Group__3__Impl_in_rule__ENC__Group__3742 = new BitSet(new long[]{0x0000000000002000L});
-    public static final BitSet FOLLOW_rule__ENC__Group__4_in_rule__ENC__Group__3745 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ENC__PassAssignment_3_in_rule__ENC__Group__3__Impl772 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ENC__Group__4__Impl_in_rule__ENC__Group__4802 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_13_in_rule__ENC__Group__4__Impl830 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__PASS__Group__0__Impl_in_rule__PASS__Group__0871 = new BitSet(new long[]{0x0000000000004000L});
-    public static final BitSet FOLLOW_rule__PASS__Group__1_in_rule__PASS__Group__0874 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__PASS__Group__1__Impl_in_rule__PASS__Group__1932 = new BitSet(new long[]{0x0000000000008000L});
-    public static final BitSet FOLLOW_rule__PASS__Group__2_in_rule__PASS__Group__1935 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_14_in_rule__PASS__Group__1__Impl963 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__PASS__Group__2__Impl_in_rule__PASS__Group__2994 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__PASS__Group__3_in_rule__PASS__Group__2997 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__PASS__Group__2__Impl1025 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__PASS__Group__3__Impl_in_rule__PASS__Group__31056 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__PASS__PassAssignment_3_in_rule__PASS__Group__3__Impl1083 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__USER__Group__0__Impl_in_rule__USER__Group__01121 = new BitSet(new long[]{0x0000000000014800L});
-    public static final BitSet FOLLOW_rule__USER__Group__1_in_rule__USER__Group__01124 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__USER__Group__1__Impl_in_rule__USER__Group__11182 = new BitSet(new long[]{0x0000000000008000L});
-    public static final BitSet FOLLOW_rule__USER__Group__2_in_rule__USER__Group__11185 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_16_in_rule__USER__Group__1__Impl1213 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__USER__Group__2__Impl_in_rule__USER__Group__21244 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__USER__Group__3_in_rule__USER__Group__21247 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__USER__Group__2__Impl1275 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__USER__Group__3__Impl_in_rule__USER__Group__31306 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__USER__UserAssignment_3_in_rule__USER__Group__3__Impl1333 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCommand_in_rule__Model__CommandsAssignment_11376 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_STRING_in_rule__ENC__PassAssignment_31407 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_STRING_in_rule__PASS__PassAssignment_31438 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_STRING_in_rule__USER__UserAssignment_31469 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleENC_in_entryRuleENC123 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleENC130 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ENC__Group__0_in_ruleENC156 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rulePASS_in_entryRulePASS183 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRulePASS190 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PASS__Group__0_in_rulePASS216 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleUSER_in_entryRuleUSER243 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleUSER250 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__USER__Group__0_in_ruleUSER276 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__Group__0__Impl_in_rule__Model__Group__0311 = new BitSet(new long[]{0x0000000000014800L});
+    public static final BitSet FOLLOW_rule__Model__Group__1_in_rule__Model__Group__0314 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__Group__1__Impl_in_rule__Model__Group__1372 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__UnorderedGroup_1_in_rule__Model__Group__1__Impl399 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ENC__Group__0__Impl_in_rule__ENC__Group__0433 = new BitSet(new long[]{0x0000000000014800L});
+    public static final BitSet FOLLOW_rule__ENC__Group__1_in_rule__ENC__Group__0436 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ENC__Group__1__Impl_in_rule__ENC__Group__1494 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__ENC__Group__2_in_rule__ENC__Group__1497 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_11_in_rule__ENC__Group__1__Impl525 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ENC__Group__2__Impl_in_rule__ENC__Group__2556 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__ENC__Group__3_in_rule__ENC__Group__2559 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__ENC__Group__2__Impl587 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ENC__Group__3__Impl_in_rule__ENC__Group__3618 = new BitSet(new long[]{0x0000000000002000L});
+    public static final BitSet FOLLOW_rule__ENC__Group__4_in_rule__ENC__Group__3621 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ENC__PassAssignment_3_in_rule__ENC__Group__3__Impl648 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ENC__Group__4__Impl_in_rule__ENC__Group__4678 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__ENC__Group__4__Impl706 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PASS__Group__0__Impl_in_rule__PASS__Group__0747 = new BitSet(new long[]{0x0000000000004000L});
+    public static final BitSet FOLLOW_rule__PASS__Group__1_in_rule__PASS__Group__0750 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PASS__Group__1__Impl_in_rule__PASS__Group__1808 = new BitSet(new long[]{0x0000000000008000L});
+    public static final BitSet FOLLOW_rule__PASS__Group__2_in_rule__PASS__Group__1811 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_14_in_rule__PASS__Group__1__Impl839 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PASS__Group__2__Impl_in_rule__PASS__Group__2870 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__PASS__Group__3_in_rule__PASS__Group__2873 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__PASS__Group__2__Impl901 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PASS__Group__3__Impl_in_rule__PASS__Group__3932 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PASS__PassAssignment_3_in_rule__PASS__Group__3__Impl959 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__USER__Group__0__Impl_in_rule__USER__Group__0997 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_rule__USER__Group__1_in_rule__USER__Group__01000 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__USER__Group__1__Impl_in_rule__USER__Group__11058 = new BitSet(new long[]{0x0000000000008000L});
+    public static final BitSet FOLLOW_rule__USER__Group__2_in_rule__USER__Group__11061 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_16_in_rule__USER__Group__1__Impl1089 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__USER__Group__2__Impl_in_rule__USER__Group__21120 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__USER__Group__3_in_rule__USER__Group__21123 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__USER__Group__2__Impl1151 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__USER__Group__3__Impl_in_rule__USER__Group__31182 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__USER__UserAssignment_3_in_rule__USER__Group__3__Impl1209 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__UnorderedGroup_1__0_in_rule__Model__UnorderedGroup_11248 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__CommandsAssignment_1_0_in_rule__Model__UnorderedGroup_1__Impl1335 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__CommandsAssignment_1_1_in_rule__Model__UnorderedGroup_1__Impl1426 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__CommandsAssignment_1_2_in_rule__Model__UnorderedGroup_1__Impl1517 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__UnorderedGroup_1__Impl_in_rule__Model__UnorderedGroup_1__01576 = new BitSet(new long[]{0x0000000000014802L});
+    public static final BitSet FOLLOW_rule__Model__UnorderedGroup_1__1_in_rule__Model__UnorderedGroup_1__01579 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__UnorderedGroup_1__Impl_in_rule__Model__UnorderedGroup_1__11604 = new BitSet(new long[]{0x0000000000014802L});
+    public static final BitSet FOLLOW_rule__Model__UnorderedGroup_1__2_in_rule__Model__UnorderedGroup_1__11607 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Model__UnorderedGroup_1__Impl_in_rule__Model__UnorderedGroup_1__21632 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleUSER_in_rule__Model__CommandsAssignment_1_01666 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rulePASS_in_rule__Model__CommandsAssignment_1_11697 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleENC_in_rule__Model__CommandsAssignment_1_21728 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_STRING_in_rule__ENC__PassAssignment_31759 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_STRING_in_rule__PASS__PassAssignment_31790 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_STRING_in_rule__USER__UserAssignment_31821 = new BitSet(new long[]{0x0000000000000002L});
 
 }

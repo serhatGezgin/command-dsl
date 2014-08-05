@@ -84,75 +84,115 @@ ruleModel returns [EObject current=null]
             $current);
     }
 )(
+
+(
+	{ 
+	  getUnorderedGroupHelper().enter(grammarAccess.getModelAccess().getUnorderedGroup_1());
+	}
+	(
+		(
+
+			( 
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0)}?=>(
+					{ 
+	 				  getUnorderedGroupHelper().select(grammarAccess.getModelAccess().getUnorderedGroup_1(), 0);
+	 				}
+					({true}?=>(
 (
 		{ 
-	        newCompositeNode(grammarAccess.getModelAccess().getCommandsCommandParserRuleCall_1_0()); 
+	        newCompositeNode(grammarAccess.getModelAccess().getCommandsUSERParserRuleCall_1_0_0()); 
 	    }
-		lv_commands_1_0=ruleCommand		{
+		lv_commands_2_0=ruleUSER		{
 	        if ($current==null) {
 	            $current = createModelElementForParent(grammarAccess.getModelRule());
 	        }
        		add(
        			$current, 
        			"commands",
-        		lv_commands_1_0, 
-        		"Command");
+        		lv_commands_2_0, 
+        		"USER");
 	        afterParserOrEnumRuleCall();
 	    }
 
 )
-)*)
-;
+))
+					{ 
+	 				  getUnorderedGroupHelper().returnFromSelection(grammarAccess.getModelAccess().getUnorderedGroup_1());
+	 				}
+ 				)
+			)  |
 
-
-
-
-
-// Entry rule entryRuleCommand
-entryRuleCommand returns [EObject current=null] 
-	:
-	{ newCompositeNode(grammarAccess.getCommandRule()); }
-	 iv_ruleCommand=ruleCommand 
-	 { $current=$iv_ruleCommand.current; } 
-	 EOF 
-;
-
-// Rule Command
-ruleCommand returns [EObject current=null] 
-    @init { enterRule(); 
-    }
-    @after { leaveRule(); }:
+			( 
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1)}?=>(
+					{ 
+	 				  getUnorderedGroupHelper().select(grammarAccess.getModelAccess().getUnorderedGroup_1(), 1);
+	 				}
+					({true}?=>(
 (
-    { 
-        newCompositeNode(grammarAccess.getCommandAccess().getENCParserRuleCall_0()); 
-    }
-    this_ENC_0=ruleENC
-    { 
-        $current = $this_ENC_0.current; 
-        afterParserOrEnumRuleCall();
-    }
+		{ 
+	        newCompositeNode(grammarAccess.getModelAccess().getCommandsPASSParserRuleCall_1_1_0()); 
+	    }
+		lv_commands_3_0=rulePASS		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getModelRule());
+	        }
+       		add(
+       			$current, 
+       			"commands",
+        		lv_commands_3_0, 
+        		"PASS");
+	        afterParserOrEnumRuleCall();
+	    }
 
-    |
-    { 
-        newCompositeNode(grammarAccess.getCommandAccess().getPASSParserRuleCall_1()); 
-    }
-    this_PASS_1=rulePASS
-    { 
-        $current = $this_PASS_1.current; 
-        afterParserOrEnumRuleCall();
-    }
-
-    |
-    { 
-        newCompositeNode(grammarAccess.getCommandAccess().getUSERParserRuleCall_2()); 
-    }
-    this_USER_2=ruleUSER
-    { 
-        $current = $this_USER_2.current; 
-        afterParserOrEnumRuleCall();
-    }
 )
+))
+					{ 
+	 				  getUnorderedGroupHelper().returnFromSelection(grammarAccess.getModelAccess().getUnorderedGroup_1());
+	 				}
+ 				)
+			)  |
+
+			( 
+				{getUnorderedGroupHelper().canSelect(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2)}?=>(
+					{ 
+	 				  getUnorderedGroupHelper().select(grammarAccess.getModelAccess().getUnorderedGroup_1(), 2);
+	 				}
+					({true}?=>(
+(
+		{ 
+	        newCompositeNode(grammarAccess.getModelAccess().getCommandsENCParserRuleCall_1_2_0()); 
+	    }
+		lv_commands_4_0=ruleENC		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getModelRule());
+	        }
+       		add(
+       			$current, 
+       			"commands",
+        		lv_commands_4_0, 
+        		"ENC");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
+))
+					{ 
+	 				  getUnorderedGroupHelper().returnFromSelection(grammarAccess.getModelAccess().getUnorderedGroup_1());
+	 				}
+ 				)
+			)  
+
+		)*	
+	)
+)
+	{ 
+	  getUnorderedGroupHelper().leave(grammarAccess.getModelAccess().getUnorderedGroup_1());
+	}
+
+))
 ;
+
+
 
 
 

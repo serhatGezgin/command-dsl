@@ -4,7 +4,8 @@ generate command "http://www.provus.org/atm/command/Command"
 
 Model:
 	{Model}
-	commands+=Command*;
+	((commands+=USER?)? & (commands+=PASS?)? & (commands+=ENC?)?)
+	;
 
 Command returns Command:
 	ENC | PASS | USER;

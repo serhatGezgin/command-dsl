@@ -168,10 +168,10 @@ public class InternalCommandLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:775:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:775:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:880:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:880:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:775:11: ( '^' )?
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:880:11: ( '^' )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -180,7 +180,7 @@ public class InternalCommandLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:775:11: '^'
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:880:11: '^'
                     {
                     match('^'); 
 
@@ -198,7 +198,7 @@ public class InternalCommandLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:775:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:880:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop2:
             do {
                 int alt2=2;
@@ -247,10 +247,10 @@ public class InternalCommandLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:777:10: ( ( '0' .. '9' )+ )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:777:12: ( '0' .. '9' )+
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:882:10: ( ( '0' .. '9' )+ )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:882:12: ( '0' .. '9' )+
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:777:12: ( '0' .. '9' )+
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:882:12: ( '0' .. '9' )+
             int cnt3=0;
             loop3:
             do {
@@ -264,7 +264,7 @@ public class InternalCommandLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:777:13: '0' .. '9'
+            	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:882:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -296,10 +296,10 @@ public class InternalCommandLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:13: ( ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:13: ( ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -317,10 +317,10 @@ public class InternalCommandLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:16: '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:16: '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:20: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:20: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop4:
                     do {
                         int alt4=3;
@@ -336,7 +336,7 @@ public class InternalCommandLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:21: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
+                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:21: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
                     	    {
                     	    match('\\'); 
                     	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||(input.LA(1)>='t' && input.LA(1)<='u') ) {
@@ -352,7 +352,7 @@ public class InternalCommandLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:66: ~ ( ( '\\\\' | '\"' ) )
+                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:66: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -377,10 +377,10 @@ public class InternalCommandLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:86: '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:86: '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:91: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:91: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop5:
                     do {
                         int alt5=3;
@@ -396,7 +396,7 @@ public class InternalCommandLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:92: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
+                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:92: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'u' | '\"' | '\\'' | '\\\\' )
                     	    {
                     	    match('\\'); 
                     	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||(input.LA(1)>='t' && input.LA(1)<='u') ) {
@@ -412,7 +412,7 @@ public class InternalCommandLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:779:137: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:884:137: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -455,12 +455,12 @@ public class InternalCommandLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:781:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:781:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:886:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:886:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:781:24: ( options {greedy=false; } : . )*
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:886:24: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -485,7 +485,7 @@ public class InternalCommandLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:781:52: .
+            	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:886:52: .
             	    {
             	    matchAny(); 
 
@@ -515,12 +515,12 @@ public class InternalCommandLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop8:
             do {
                 int alt8=2;
@@ -533,7 +533,7 @@ public class InternalCommandLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -553,7 +553,7 @@ public class InternalCommandLexer extends Lexer {
                 }
             } while (true);
 
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:40: ( ( '\\r' )? '\\n' )?
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:40: ( ( '\\r' )? '\\n' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -562,9 +562,9 @@ public class InternalCommandLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:41: ( '\\r' )? '\\n'
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:41: ( '\\r' )? '\\n'
                     {
-                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:41: ( '\\r' )?
+                    // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:41: ( '\\r' )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -573,7 +573,7 @@ public class InternalCommandLexer extends Lexer {
                     }
                     switch (alt9) {
                         case 1 :
-                            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:783:41: '\\r'
+                            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:888:41: '\\r'
                             {
                             match('\r'); 
 
@@ -605,10 +605,10 @@ public class InternalCommandLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:785:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:785:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:890:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:890:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:785:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:890:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt11=0;
             loop11:
             do {
@@ -662,8 +662,8 @@ public class InternalCommandLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:787:16: ( . )
-            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:787:18: .
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:892:16: ( . )
+            // ../org.provus.atm.command.ui/src-gen/org/provus/atm/command/ui/contentassist/antlr/internal/InternalCommand.g:892:18: .
             {
             matchAny(); 
 

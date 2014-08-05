@@ -22,24 +22,44 @@ public class CommandGrammarAccess extends AbstractGrammarElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "Model");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cModelAction_0 = (Action)cGroup.eContents().get(0);
-		private final Assignment cCommandsAssignment_1 = (Assignment)cGroup.eContents().get(1);
-		private final RuleCall cCommandsCommandParserRuleCall_1_0 = (RuleCall)cCommandsAssignment_1.eContents().get(0);
+		private final UnorderedGroup cUnorderedGroup_1 = (UnorderedGroup)cGroup.eContents().get(1);
+		private final Assignment cCommandsAssignment_1_0 = (Assignment)cUnorderedGroup_1.eContents().get(0);
+		private final RuleCall cCommandsUSERParserRuleCall_1_0_0 = (RuleCall)cCommandsAssignment_1_0.eContents().get(0);
+		private final Assignment cCommandsAssignment_1_1 = (Assignment)cUnorderedGroup_1.eContents().get(1);
+		private final RuleCall cCommandsPASSParserRuleCall_1_1_0 = (RuleCall)cCommandsAssignment_1_1.eContents().get(0);
+		private final Assignment cCommandsAssignment_1_2 = (Assignment)cUnorderedGroup_1.eContents().get(2);
+		private final RuleCall cCommandsENCParserRuleCall_1_2_0 = (RuleCall)cCommandsAssignment_1_2.eContents().get(0);
 		
 		//Model:
-		//	{Model} commands+=Command*;
+		//	{Model} (commands+=USER? & commands+=PASS? & commands+=ENC?);
 		public ParserRule getRule() { return rule; }
 
-		//{Model} commands+=Command*
+		//{Model} (commands+=USER? & commands+=PASS? & commands+=ENC?)
 		public Group getGroup() { return cGroup; }
 
 		//{Model}
 		public Action getModelAction_0() { return cModelAction_0; }
 
-		//commands+=Command*
-		public Assignment getCommandsAssignment_1() { return cCommandsAssignment_1; }
+		//commands+=USER? & commands+=PASS? & commands+=ENC?
+		public UnorderedGroup getUnorderedGroup_1() { return cUnorderedGroup_1; }
 
-		//Command
-		public RuleCall getCommandsCommandParserRuleCall_1_0() { return cCommandsCommandParserRuleCall_1_0; }
+		//commands+=USER?
+		public Assignment getCommandsAssignment_1_0() { return cCommandsAssignment_1_0; }
+
+		//USER
+		public RuleCall getCommandsUSERParserRuleCall_1_0_0() { return cCommandsUSERParserRuleCall_1_0_0; }
+
+		//commands+=PASS?
+		public Assignment getCommandsAssignment_1_1() { return cCommandsAssignment_1_1; }
+
+		//PASS
+		public RuleCall getCommandsPASSParserRuleCall_1_1_0() { return cCommandsPASSParserRuleCall_1_1_0; }
+
+		//commands+=ENC?
+		public Assignment getCommandsAssignment_1_2() { return cCommandsAssignment_1_2; }
+
+		//ENC
+		public RuleCall getCommandsENCParserRuleCall_1_2_0() { return cCommandsENCParserRuleCall_1_2_0; }
 	}
 
 	public class CommandElements extends AbstractParserRuleElementFinder {
@@ -212,7 +232,7 @@ public class CommandGrammarAccess extends AbstractGrammarElementFinder {
 
 	
 	//Model:
-	//	{Model} commands+=Command*;
+	//	{Model} (commands+=USER? & commands+=PASS? & commands+=ENC?);
 	public ModelElements getModelAccess() {
 		return (pModel != null) ? pModel : (pModel = new ModelElements());
 	}

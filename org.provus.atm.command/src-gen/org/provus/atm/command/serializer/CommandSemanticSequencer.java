@@ -77,7 +77,7 @@ public class CommandSemanticSequencer extends AbstractDelegatingSemanticSequence
 	
 	/**
 	 * Constraint:
-	 *     (commands+=Command*)
+	 *     (commands+=USER? commands+=PASS? commands+=ENC?)
 	 */
 	protected void sequence_Model(EObject context, Model semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
