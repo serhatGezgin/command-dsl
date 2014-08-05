@@ -1,0 +1,23 @@
+grammar org.provus.atm.command.Command with org.eclipse.xtext.common.Terminals
+
+generate command "http://www.provus.org/atm/command/Command"
+
+Model:
+	{Model}
+	commands+=Command*;
+
+Command returns Command:
+	ENC | PASS | USER;
+
+ENC:
+	{ENC}
+	'ENC' '{' pass=STRING '}';
+
+PASS:
+	{PASS}
+	'pas' '=' pass=STRING;
+	
+USER:
+	{USER}
+	'user' '=' user=STRING
+;

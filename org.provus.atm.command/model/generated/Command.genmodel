@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.provus.atm.command/src-gen" editDirectory="/org.provus.atm.command.edit/src"
+    editorDirectory="/org.provus.atm.command.editor/src" modelPluginID="org.provus.atm.command"
+    forceOverwrite="true" modelName="Command" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="org.provus.atm.command.edit"
+    editorPluginID="org.provus.atm.command.editor" runtimeVersion="2.10">
+  <genPackages prefix="Command" basePackage="org.provus.atm.command" disposableProviderFactory="true"
+      fileExtensions="cmd" ecorePackage="Command.ecore#/">
+    <genClasses ecoreClass="Command.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Command.ecore#//Model/commands"/>
+    </genClasses>
+    <genClasses ecoreClass="Command.ecore#//Command"/>
+    <genClasses ecoreClass="Command.ecore#//ENC">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Command.ecore#//ENC/pass"/>
+    </genClasses>
+    <genClasses ecoreClass="Command.ecore#//PASS">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Command.ecore#//PASS/pass"/>
+    </genClasses>
+    <genClasses ecoreClass="Command.ecore#//USER">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Command.ecore#//USER/user"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

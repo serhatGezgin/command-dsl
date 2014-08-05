@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.provus.atm.command.ui
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.provus.atm.command.ui; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.provus.atm.command;visibility:=reexport,
+ org.eclipse.xtext.ui,
+ org.eclipse.ui.editors;bundle-version="3.5.0",
+ org.eclipse.ui.ide;bundle-version="3.5.0",
+ org.eclipse.xtext.ui.shared,
+ org.eclipse.ui,
+ org.eclipse.xtext.builder,
+ org.antlr.runtime,
+ org.eclipse.xtext.common.types.ui,
+ org.eclipse.xtext.ui.codetemplates.ui,
+ org.eclipse.compare
+Import-Package: org.apache.log4j,
+ org.eclipse.xtext.xbase.lib
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.provus.atm.command.ui.quickfix,
+ org.provus.atm.command.ui.contentassist,
+ org.provus.atm.command.ui.contentassist.antlr,
+ org.provus.atm.command.ui.internal
+Bundle-Activator: org.provus.atm.command.ui.internal.CommandActivator
