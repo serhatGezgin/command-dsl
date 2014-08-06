@@ -74,7 +74,7 @@ class MyXtext2EcorePostProcessor implements IXtext2EcorePostProcessor {
 
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append("ENC{");
-		result.append("\"" + pass + "\"");
+		result.append(pass);
 		result.append('}');
 		return result.toString();
     	'''
@@ -86,7 +86,7 @@ class MyXtext2EcorePostProcessor implements IXtext2EcorePostProcessor {
 
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append("pass=");
-		result.append("\"" + pass + "\"");
+		result.append(pass);
 		return result.toString();
     	'''
     }
@@ -97,7 +97,7 @@ class MyXtext2EcorePostProcessor implements IXtext2EcorePostProcessor {
 
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append("user=");
-		result.append("\"" + user + "\"");
+		result.append(user);
 		return result.toString();
     	'''
     }

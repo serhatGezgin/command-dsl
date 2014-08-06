@@ -136,7 +136,7 @@ public class MyXtext2EcorePostProcessor implements IXtext2EcorePostProcessor {
     _builder.newLine();
     _builder.append("result.append(\"ENC{\");");
     _builder.newLine();
-    _builder.append("result.append(\"\\\"\" + pass + \"\\\"\");");
+    _builder.append("result.append(pass);");
     _builder.newLine();
     _builder.append("result.append(\'}\');");
     _builder.newLine();
@@ -154,7 +154,7 @@ public class MyXtext2EcorePostProcessor implements IXtext2EcorePostProcessor {
     _builder.newLine();
     _builder.append("result.append(\"pass=\");");
     _builder.newLine();
-    _builder.append("result.append(\"\\\"\" + pass + \"\\\"\");");
+    _builder.append("result.append(pass);");
     _builder.newLine();
     _builder.append("return result.toString();");
     _builder.newLine();
@@ -170,7 +170,7 @@ public class MyXtext2EcorePostProcessor implements IXtext2EcorePostProcessor {
     _builder.newLine();
     _builder.append("result.append(\"user=\");");
     _builder.newLine();
-    _builder.append("result.append(\"\\\"\" + user + \"\\\"\");");
+    _builder.append("result.append(user);");
     _builder.newLine();
     _builder.append("return result.toString();");
     _builder.newLine();

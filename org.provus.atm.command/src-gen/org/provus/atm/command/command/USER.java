@@ -50,7 +50,7 @@ public interface USER extends Command
   /**
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @model annotation="http://www.eclipse.org/emf/2002/GenModel body='if (eIsProxy()) return super.toString();\r\n\r\nStringBuffer result = new StringBuffer(super.toString());\r\nresult.append(\"user=\");\r\nresult.append(\"\\\"\" + user + \"\\\"\");\r\nreturn result.toString();\r\n'"
+   * @model annotation="http://www.eclipse.org/emf/2002/GenModel body='if (eIsProxy()) return super.toString();\r\n\r\nStringBuffer result = new StringBuffer(super.toString());\r\nresult.append(\"user=\");\r\nresult.append(user);\r\nreturn result.toString();\r\n'"
    * @generated
    */
   String toString();

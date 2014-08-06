@@ -101,7 +101,7 @@ public class ENCImpl extends CommandImpl implements ENC
     
     StringBuffer result = new StringBuffer(super.toString());
     result.append("ENC{");
-    result.append("\"" + pass + "\"");
+    result.append(pass);
     result.append('}');
     return result.toString();
     

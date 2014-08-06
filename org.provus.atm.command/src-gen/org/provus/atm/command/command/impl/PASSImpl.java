@@ -101,7 +101,7 @@ public class PASSImpl extends CommandImpl implements PASS
     
     StringBuffer result = new StringBuffer(super.toString());
     result.append("pass=");
-    result.append("\"" + pass + "\"");
+    result.append(pass);
     return result.toString();
     
   }

@@ -101,7 +101,7 @@ public class USERImpl extends CommandImpl implements USER
     
     StringBuffer result = new StringBuffer(super.toString());
     result.append("user=");
-    result.append("\"" + user + "\"");
+    result.append(user);
     return result.toString();
     
   }

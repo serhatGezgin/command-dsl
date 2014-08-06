@@ -38,17 +38,21 @@ public class Test {
 		EList<Command> commands = parser.getCommands();
 		for (Command command : commands) {
 			if(command instanceof ENC){
-				System.out.println(((ENC) command).getPass());
+				System.out.println("ENC Pass: " + ((ENC) command).getPass());
 			}
 			else if(command instanceof USER){
-				System.out.println(((USER) command).getUser());
+				System.out.println("User: " + ((USER) command).getUser());
+			}else if(command instanceof PASS){
+				System.out.println("User: " + ((PASS) command).getPass());
 			}
 		}
 	}
 	
 	public static void main(String[] args) throws IOException {
 		readString("user = \"serhat\" ENC{\"pass\"}");
-		
+		System.out.println();
+		System.out.println("--------------");
+		System.out.println();
 		createCommand();
 	}
 }
